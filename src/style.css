@@ -1,3 +1,12 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-p {
+
+#excuse {
+color: rgb(55, 0, 255);
+background: rgb(173, 234, 245);
+font-family:  Tahoma, Verdana, sans-serif;
+font-style: italic;
+font-size: 30px;
+font-weight: bold;
+margin: 10%
+
 }

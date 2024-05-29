@@ -9,13 +9,7 @@ import "./assets/img/4geeks.ico";
 let who = ["The dog", "My grandma", "The mailman", "My bird"];
 let action = ["ate", "peed", "crushed", "broke"];
 let what = ["my homework", "my phone", "the car"];
-let when = [
-  "before the class",
-  "when I was sleeping",
-  "while I was exercising",
-  "during my lunch",
-  "while I was praying"
-];
+let when = ["before the class", "when I was sleeping", "while I was exercising", "during my lunch","while I was praying"];
 
 window.onload = function generarExcusas() {
   let whoRamdom = who[Math.floor(Math.random() * who.length)];
@@ -23,8 +17,7 @@ window.onload = function generarExcusas() {
   let whatRamdom = what[Math.floor(Math.random() * what.length)];
   let whenRamdom = when[Math.floor(Math.random() * when.length)];
 
-  let excuse =
-    whoRamdom + " " + actionRamdom + " " + whatRamdom + " " + whenRamdom;
+  let excuse = whoRamdom + " " + actionRamdom + " " + whatRamdom + " " + whenRamdom;
 
   document.getElementById("excuse").innerHTML = excuse;
 };
